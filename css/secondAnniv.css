@@ -7,7 +7,7 @@
 html, body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
-    color: white;
+    color: #FCC5C0;
 }
 
 .jumbotron {
@@ -24,6 +24,7 @@ header {
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #937DC2;
     border-radius: 5px;
     padding: 20px;
     margin-top: 20px;
@@ -31,7 +32,7 @@ header {
 
 .box {
     flex-grow: 1;
-    background-color: #C689C6;
+    background-color: #937DC2;
     margin: 5px;
     border: 2px solid #C689C6;
     border-radius: 15px;
@@ -53,8 +54,8 @@ nav {
 nav a{
     font-size: 18px;
     text-decoration: none;
-    color: white;
-    margin : 5px;
+    color: #FCC5C0;
+    margin : 7px;
  }
 
 nav a:hover {
@@ -62,8 +63,10 @@ nav a:hover {
 }
 
 main{
+    padding: 20px;
     margin : auto;
     background: #C689C6;
+    overflow:auto;
 }
 
 @media screen and (max-width: 1000px) {
