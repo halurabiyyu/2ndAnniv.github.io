@@ -69,6 +69,14 @@ main{
     overflow:auto;
 }
 
+footer {
+    padding: 10px;
+    color: #FCC5C0;
+    text-align: center;
+    font-weight: bold;
+    background-color: #937DC2
+ }
+
 @media screen and (max-width: 1000px) {
     #content,
     aside {
