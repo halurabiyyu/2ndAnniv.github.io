@@ -33,7 +33,7 @@ header {
 .box {
     flex-grow: 1;
     background-color: #937DC2;
-    margin: 5px;
+    margin: auto;
     border: 2px solid #C689C6;
     border-radius: 15px;
 }
@@ -42,12 +42,13 @@ nav {
     padding: 5px;
     position: sticky;
     top: 0;
+    
  }
  
  nav li {
     display: inline;
     list-style-type: none;
-    margin-right: 20px;
+    margin: 7px;
     
  }
 
@@ -60,6 +61,12 @@ nav a{
 
 nav a:hover {
     font-weight: bold;
+}
+
+.pacaran{
+    margin-right: 10px;
+    width: 100px;
+    height: auto;
 }
 
 main{
