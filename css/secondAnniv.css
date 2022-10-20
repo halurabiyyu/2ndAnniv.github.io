@@ -17,6 +17,11 @@ html, body {
     float: none;
  }
 
+.bw{
+    border-radius: 10px;
+    border: 7px solid #C689C6;
+}
+
 header {
     background: #937DC2;
     padding: 16px;
@@ -67,6 +72,14 @@ nav a:hover {
     margin-right: 10px;
     width: 100px;
     height: auto;
+    border: 5px solid #C689C6;
+    border-radius: 10px;
+}
+
+.foto2{
+    margin-right: 3px;
+    border: 5px solid #C689C6;
+    border-radius: 10px;
 }
 
 main{
@@ -74,6 +87,18 @@ main{
     margin : auto;
     background: #C689C6;
     overflow:auto;
+}
+
+.fotoPesan{
+    margin-right: 5px;
+    border: 5px solid #C689C6;
+    border-radius: 10px;
+}
+
+.fotoKesan{
+    margin-right: 5px;
+    border: 5px solid #C689C6;
+    border-radius: 10px;
 }
 
 footer {
